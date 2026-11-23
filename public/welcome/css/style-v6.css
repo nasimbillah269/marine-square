@@ -1,0 +1,928 @@
+
+.languagePart select.gt_selector.notranslate {
+    display: block;
+    width: 50%;
+    background-color: #31af68;
+    color: #fff;
+    font-size: 11px;
+    padding: 4px 0;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin: 8px auto;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+.mobileLnage select.gt_selector.notranslate {
+    display: none;
+}
+.timeline-section {
+    background-color: #DDF0F5;
+}
+.homeProductSection h2 {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.header-menu ul li a {
+    color: #120000 !important;
+    padding: 20px 10px !important;
+    font-size: 15px !important;
+    transition: 0.5s all;
+}
+.header-menu ul li a:hover {
+    color: #0e6407 !important;
+}
+.top-right-header ul {
+    display: flex
+;
+    float: left !important;
+}
+.headerNav {
+    border-top: 1px solid #f3f0f0;
+    padding: 10px 0;
+    border-bottom: 1px solid #f3f0f0;
+    
+}
+
+
+.aboutCompany h1 {
+    text-align: center;
+        text-transform: uppercase;
+}
+.breadcrumb-area .title {
+    padding: 20px 0 !important;
+}
+.serviceFeatured {
+    background-color: #0da5c7;
+    padding: 50px 0;
+}
+.breadcrumb-area .title h1 {
+    color: white;
+    text-align: center;
+        font-size: 35px;
+}
+.aboutCompany p {
+    text-align: justify;
+}
+.titleLine {
+    width: 50px;
+    background-color: #000;
+    height: 1px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.OurMissonVison h1 {
+    text-transform: uppercase;
+}
+.title ul {
+    text-align: center;
+}
+.more p {
+    text-align: center;
+}
+
+.featuredGrid img {
+    margin: 0 auto;
+    width: 50px;
+    display: block;
+    padding-bottom: 29px;
+}
+.serviceFeatured h1 {
+    text-align: center;
+    color: #fff;
+}
+.ourSolutionsMain{
+    padding: 50px 0;
+}
+.ourSolutionsMain  h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+.ourSolutionGird {
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.ourSolutionGird a {
+    background-color: #01aae8;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 30px;
+    font-size: 14px;
+    margin-top: 10px;
+    transition: 0.5s all;
+}
+.ourSolutionGird a:hover {
+    background-color: #ad2f38;
+    color: #fff;
+}
+.blogCompany h1{
+    text-align: center;
+}
+.aboutCompanyImage img {
+    width: 100%;
+    border-radius: 20px;
+}
+.logoDiv span {
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+.hero-images img {
+    border-radius: 20px;
+}
+.missionVisonDiv {
+    background-color: #0da5c7;
+    padding: 20px;
+    height: 280px;
+    color: #fff;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.top-left-header ul {
+    float: right !important;
+}
+.missionVisonDiv h6 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.moreAboutLeft h5 {
+    font-size: 25px;
+    color: green;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.moreAboutRight img {
+    width: 100%;
+    border-radius: 20px;
+}
+.moreAboutLeft p {
+    text-align: justify;
+}
+
+.moreAbout {
+    background-color: #DDF0F5;
+    padding: 60px 0;
+}
+.aboutConuner h4 {
+    margin: 0;
+    color: green;
+    font-weight: bold;
+}
+.missionVisonDiv p {
+    text-align: justify;
+}
+.whyChooseUs {
+    padding: 60px 0;
+}
+
+.whyChooseUs h1 {
+    text-align: center;
+}
+
+.whyChooseUsLeft img {
+    width: 100%;
+}
+
+.whyChooseUsLeft p {
+    text-align: justify;
+    margin: 0;
+    padding-bottom: 34px;
+}
+.whyChooseUsLeft h4 {
+    font-size: 22px;
+    color: green;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.whyChoseUsRight {
+    margin-top: 30px;
+}
+.whyChooseUsGrid h4 {
+    color: green;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.whyChooseUsGrid {
+    border: 1px solid green;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.whyChooseUsGrid i {
+    font-size: 35px;
+    color: green;
+    margin-bottom: 10px;
+}
+.whyChooseUsGrid p {
+    margin: 0;
+}
+.ourCoreValues {
+    margin-top: 50px;
+}
+.ourCoreValues h5 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #0da5c7;
+    font-weight: bold;
+}
+
+.ourCoreValues img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.aboutRight h6 {
+    font-size: 22px;
+    color: #444;
+    font-weight: bold;
+}
+
+.aboutRight h5 {
+    font-size: 25px;
+    color: green;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.impactJourneyBox {
+    background-color: #0da5c7;
+    padding: 20px;
+    height: 200px;
+    color: #fff;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.impactJourneyBox h5 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.impactJourneyBox p {
+    text-align: justify;
+}
+
+
+menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu-item {
+    position: relative;
+    margin-right: -8px;
+}
+
+.menu-item a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.submenu {
+    position: absolute;
+    top: 100%;
+    background: #fff;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 250px;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    border-top: 2px solid #e6a307;
+}
+
+.submenu li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+   width: 100%;
+}
+
+
+.submenu li a {
+    font-size: 18px !important;
+    text-align: left;
+    padding: 10px !important;
+    text-transform: lowercase !important;
+    border-bottom: 1px solid lightgray;
+    line-height: 20px;
+    text-transform: uppercase !important;
+}
+
+.ourProjectMain {
+    background-color: #0da5c7;
+    padding: 50px 0;
+}
+
+
+.menu-item:hover .submenu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    z-index: 99999999;
+}
+.projectGrid {
+    margin-bottom: 20px;
+}
+.projectImg img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.ourCustomerMian {
+    background-color: #f7f8fb;
+    padding: 50px 0;
+    margin-top: 50px;
+}
+
+.pageContent p {
+    text-align: justify;
+    font-size: 20px;
+    background-color: #fbfbf9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.image {
+    overflow: hidden;
+}
+
+.image a img {
+    transition: 0.5s all;
+}
+
+.blogGrid:hover .image a img {
+    transform: scale(1.1);
+}
+.teamPartHead {
+    text-align: center;
+    padding-bottom: 40px;
+}
+.teamPartHead h4 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 17px;
+}
+.teamPartHead h5 {
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.teamRow {
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px 2px #cbc9c9;
+}
+
+.teamRightPart h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 15px;
+}
+.profileImg img {
+    width: 100%;
+}
+.teamRightPart {
+    padding-top: 20px;
+}
+.teamRightPart p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.teamRightPart h6 {
+    font-weight: bold;
+}
+
+
+.packgeGrid {
+    border: 2px solid green;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.packgeGrid h4 {
+    color: green;
+    margin: 0;
+    padding: 20px 0;
+    font-size: 30px;
+    font-weight: 600;
+}
+.ourPackage h1 {
+    text-align: center;
+}
+.packgeGrid img {
+    display: block;
+    border-radius: 10px;
+}
+.ourPackage {
+    padding-bottom: 60px;
+}
+
+.packgeGrid ul li {
+    border-bottom: 1px dashed lightgray;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.priceBox h3 span {
+    font-size: 15px;
+}
+
+.priceBox h3 {
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+}
+.priceBox {
+    display: flex
+;
+    align-items: center;
+    justify-content: space-between;
+}
+.priceBox a {
+    background-color: #dda319;
+    color: #fff;
+    padding: 10px 20px;
+    transition: 0.5s all;
+}
+.packgeGrid ul li i {
+    color: green;
+    font-size: 14px;
+    margin-right: 5px;
+}
+.packgeGrid ul {
+    margin-bottom: 30px;
+}
+.priceBox a:hover {
+    background-color: green;
+    color: #fff;
+}
+.vpPackgeBannerMain {
+    margin-bottom: 60px;
+}
+
+.vpBannerVg {
+     background-image: url(../images/almadina/al_hera-services-3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ } 
+ 
+ .vpBannerOverly {
+        background-color: #1b7d75d4;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    padding: 50px 0;
+}
+ .vpBannerContent h1 {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.vpBannerContent h2 {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.vpBannerContent ul li i {
+    color: #dda319;
+}
+.vpBannerContent ul {
+    text-align: center;
+}
+
+.vpBannerContent ul li {
+    display: inline-block;
+    color: #fff;
+    border-right: 1px dashed lightgray;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+ .buyNowLick a {
+    background: #dda319;
+    color: #fff;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    transition: 0.5s all;
+}
+.buyNowLick {
+    text-align: center;
+}
+.buyNowLick a:hover {
+    background-color: green;
+    color: #fff;
+}
+
+
+.testimonialMain {
+    background-color: #DDF0F5;
+    padding: 60px 0;
+}
+
+.testimonialMain h1 {
+    text-align: center;
+}
+
+.testimonialGrid h4 {
+    font-size: 20px;
+    text-align: right;
+    color: green;
+    font-weight: 600;
+}
+.testimonialGrid p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.testimonialGrid {
+    border: 1px solid green;
+    padding: 10px;
+    background-color: #fff;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 30px;
+}
+.faqmain {
+        padding-top: 60px;
+}
+.faqmain h1 {
+    text-align: center;
+}
+
+ .accordion {
+            width: 750px;
+            margin: 20px auto;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+.accordion-item {
+    border-bottom: 1px solid #ccc;
+}
+.accordion-header {
+    padding: 15px;
+    cursor: pointer;
+    position: relative;
+}
+.accordion-header i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+}
+.accordion-content {
+    display: none;
+    padding: 15px;
+}
+
+.aboutRights h4 {
+    color: green;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.aboutRights h5 {
+    font-size: 15px;
+    font-weight: bold;
+}
+.aboutRights h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.missionVissionLear {
+    background-color: #DDF0F5;
+    padding: 60px 0;
+}
+.missionVissionRightSide img {
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+.quoteLink {
+    background-color: #976e1a;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: 0.5s all;
+}
+
+.quoteLink:hover {
+    background-color: #051e33;
+    color: #fff;
+}
+
+.missionVissionLeftSide p {
+    text-align: justify;
+}
+
+.missionVissionLeftSide h4 {
+    font-size: 30px;
+    color: green;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.compServiceMain {
+    padding: 100px 0;
+}
+.compServiceMain h3 {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 50px;
+    font-size: 36px;
+}
+.compServiceBox {
+    margin-bottom: 20px;
+}
+.compServiceBox img {
+    background: green;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 20px;
+    border: 2px solid #b5b310;
+}
+.compServiceBox h4 {
+    font-size: 18px;
+    color: green;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.meetFounderLeft h5 {
+    margin: 0;
+    padding-bottom: 20px;
+    color: green;
+    font-weight: 600;
+}
+
+.meetFounderLeft h3 {
+    color: green;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.meetFounderLeft p {
+    text-align: justify;
+}
+
+.meetFounderLeft a {
+    background: #dda319;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: 0.5s all;
+}
+
+.meetFounderLeft a:hover {
+    background-color: green;
+    color: #fff;
+}
+.meetFounderRight img {
+    border: 1px solid lightgray;
+}
+
+
+.membershipForm .form-select {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.membershipForm .form-control {
+    margin-bottom: 10px;
+}
+.membershipForm .btn.btn-success {
+    width: 100%;
+    background: #dda319;
+    border-color: #dda319;
+}
+.membershipDivMain {
+    padding: 100px 0;
+}
+
+.membershipForm {
+    background-color: #F9F9F9;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+.membershipForm .form-label {
+    font-family: "Philosopher", sans-serif !important;
+}
+
+.homeVidoBanner video {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*.tagline {*/
+/*    --e-transform-rotateZ: -90deg;*/
+/*    transform: rotateZ(var(--e-transform-rotateZ));*/
+/*}*/
+.tagline p{
+    margin: 0;
+    font-size: 18px;
+}
+
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+.whatsapp-button:hover {
+    background-color: #1ebd5a;
+}
+
+#scrollTopBtn {
+    position: fixed;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    right: 20px;
+    display: none;
+    z-index: 999;
+    background-color: #e6a307;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#scrollTopBtn:hover {
+    background-color: #000000;
+    color: #fff !important;
+}
+
+.main-header {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.sticky-active {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.mobileLang {
+    display: none !important;
+}
+.sliderLink {
+    position: absolute;
+    bottom: 40%;
+    left: 40%;
+}
+
+.sliderLink a {
+    width: 160px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.sliderLink .whatsApp {
+    background-image: linear-gradient(45deg, #c5912e, #aaa590);
+    color: #fff;
+    width: 160px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+
+.form-info {
+    background-color: #000000 !important;
+}
+
+/*responsive design mobile device css start*/
+
+@media only screen and (max-width: 767px) {
+    .mobileLang {
+    display: block !important;
+}
+ .mobileLnage select.gt_selector.notranslate {
+    display: block;
+     position: fixed;
+    bottom: 40px;
+    right: 40px;
+    display: none;
+    z-index: 999;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 50%;
+    background-color: #31af68;
+}
+    .meetFounderRight {
+        margin-top: 20px;
+    }
+    .accordion {
+        width: 100%;
+    }
+    .mailLink {
+        display: none;
+    }
+    
+    .toggle {
+        margin-top: 10px;
+    }
+  
+    .membershipDivMain {
+        padding: 20px 0;
+    }
+    header .toggle {
+        top: 5px !important;
+    }
+    header .toggle {
+        position: fixed !important;
+    }
+    .aboutConuner p {
+        text-align: left;
+        font-size: 14px;
+    }
+    .languagePart select.gt_selector.notranslate {
+    display: block;
+    width: 22%;
+    bottom: 40px;
+    left: 40px;
+    z-index: 9999;
+    position: fixed;
+    background-color: #976e1a;
+    color: #fff;
+    font-size: 11px;
+    padding: 4px 0;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin: 8px auto;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+
+}
+/*responsive design mobile device css end*/
