@@ -91,7 +91,7 @@
               <li><i class="fas fa-check-circle"></i>8+ years business experience in maritime sector</li>
               <li><i class="fas fa-check-circle"></i>Bridge between international OEMs and Bangladesh maritime sector</li>
             </ul>
-            <a class="btn-gold" href="#" onclick="showPage('about')">Learn More <i class="fas fa-arrow-right"></i></a>
+            <a class="btn-gold" href="{{ route('pageView','marine-square') }}">Learn More <i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
       </div>
@@ -152,7 +152,7 @@
         </div>
       </div>
       <div class="text-center mt-5 fade-in">
-        <a class="btn-gold" href="#" onclick="showPage('capabilities')">View Full Capabilities <i class="fas fa-arrow-right"></i></a>
+        <a class="btn-gold" href="{{ route('pageView','capabilities') }}">View Full Capabilities <i class="fas fa-arrow-right"></i></a>
       </div>
     </div>
   </section>
@@ -168,7 +168,7 @@
           <p style="color:rgba(255,255,255,0.65);font-size:0.95rem;line-height:1.75;max-width:500px;    text-align: justify;">
             Bangladesh continues to expand its naval and maritime capability through modernization, new acquisitions, and sustained fleet operations — creating a consistent demand for OEM and service providers.
           </p>
-          <a class="btn-gold mt-4" href="#" onclick="showPage('opportunities')">View Opportunities <i class="fas fa-arrow-right"></i></a>
+          <a class="btn-gold mt-4" href="{{ route('pageView','opportunities') }}">View Opportunities <i class="fas fa-arrow-right"></i></a>
         </div>
         <div class="col-lg-7 mt-4 mt-lg-0">
           <div class="opp-grid">
@@ -369,7 +369,7 @@
       <div class="section-label" style="justify-content:center;color:#07fff8">Work With Us</div>
       <h2>Ready to Engage in Bangladesh?</h2>
       <p>If your organization supports naval or maritime systems, we provide the local access and execution capability required to operate effectively in Bangladesh.</p>
-      <a class="btn-gold" href="#" onclick="showPage('contact')">
+      <a class="btn-gold" href="{{ route('pageView','contact') }}">
         <i class="fas fa-envelope"></i> Start Engagement
       </a>
     </div>

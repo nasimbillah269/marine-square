@@ -14,7 +14,7 @@ Route::get('/geo/filter/{id}',[ApiWelcomeController::class,'geo_filter'])->name(
 
 Route::get('/home-content',[ApiWelcomeController::class,'homeContent'])->name('homeContent');
 Route::get('/menu/{location?}',[ApiWelcomeController::class,'menu'])->name('menu');
-Route::get('/page/{slug?}',[ApiWelcomeController::class,'pageView'])->name('pageView');
+Route::get('/page/{slug?}',[ApiWelcomeController::class,'pageView'])->name('api.pageView');
 
 Route::get('/blog/category/{slug}',[ApiWelcomeController::class,'blogCategory'])->name('blogCategory');
 Route::get('/blog/{slug?}',[ApiWelcomeController::class,'blogView'])->name('blogView');

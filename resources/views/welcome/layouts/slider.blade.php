@@ -13,13 +13,13 @@
           Enabling international OEMs and service providers to operate effectively within Bangladesh’s naval and maritime environment through structured access, technical alignment, and execution support.
         </p>
         <div class="hero-buttons">
-          <a class="btn-gold" href="#" style="background-color: #07fff8;    color: #000;">
+          <a class="btn-gold" href="{{ route('pageView','capabilities') }}" style="background-color: #07fff8;    color: #000;">
             <i class="fas fa-compass"></i> Explore Capabilities 
           </a>
-          <a class="btn-outline-white" href="#" >
+          <a class="btn-outline-white" href="{{ route('pageView','contact') }}">
             <i class="fas fa-info-circle"></i> Start Engagement 
           </a>
-          <a class="whatsappButton" href="https://wa.me/8801XXXXXXXXX" target="_blank">
+          <a class="whatsappButton" href="https://wa.me/8801819146112" target="_blank" rel="noopener">
                 <i class="fab fa-whatsapp"></i> Chat on WhatsApp
             </a>
         </div>

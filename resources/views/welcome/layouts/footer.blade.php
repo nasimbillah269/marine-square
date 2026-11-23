@@ -12,10 +12,10 @@
         <div class="footer-links">
           <h6>Navigation</h6>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Market Access</a></li>
-            <li><a href="#">Capabilities</a></li>
+            <li><a href="{{ route('index') }}">Home</a></li>
+            <li><a href="{{ route('pageView','marine-square') }}">About</a></li>
+            <li><a href="{{ route('pageView','market-access') }}">Market Access</a></li>
+            <li><a href="{{ route('pageView','capabilities') }}">Capabilities</a></li>
           </ul>
         </div>
       </div>
@@ -23,10 +23,10 @@
         <div class="footer-links">
           <h6>More</h6>
           <ul>
-            <li><a href="#">Opportunities</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Partners</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="{{ route('pageView','opportunities') }}">Opportunities</a></li>
+            <li><a href="{{ route('pageView','defense-projects') }}">Projects</a></li>
+            <li><a href="{{ route('pageView','partners') }}">Partners</a></li>
+            <li><a href="{{ route('pageView','contact') }}">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -59,9 +59,9 @@
                 <div class="footer-bottom">
                   <p>© 2024 MARINE Square. All rights reserved. Dhaka, Bangladesh.</p>
                   <div class="footer-socials">
-                    <a class="social-btn" href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="social-btn" href="#" title="Email"><i class="fas fa-envelope"></i></a>
-                    <a class="social-btn" href="#" title="Phone"><i class="fas fa-phone"></i></a>
+                    <a class="social-btn" href="{{ general()->linkedin_link ?: '#' }}" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="social-btn" href="mailto:info@marine-square.com" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a class="social-btn" href="tel:+8801819146112" title="Phone"><i class="fas fa-phone"></i></a>
                   </div>
                 </div>
           </div>

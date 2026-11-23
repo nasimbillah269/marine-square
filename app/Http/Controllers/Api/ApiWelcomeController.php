@@ -165,7 +165,7 @@ class ApiWelcomeController extends Controller
 
         $link=null;
         if($page =pageTemplate('Latest Services')){
-            $link =route('pageView',$page->slug?:'');
+            $link =route('api.pageView',$page->slug?:'');
         }
 
         $servicesContent =array(
@@ -192,7 +192,7 @@ class ApiWelcomeController extends Controller
 
         $link=null;
         if($page =pageTemplate('Latest Blog')){
-            $link =route('pageView',$page->slug?:'');
+            $link =route('api.pageView',$page->slug?:'');
         }
 
         $blogsContent =array(

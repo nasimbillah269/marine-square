@@ -1,7 +1,7 @@
 <div id="navbarSpacer" aria-hidden="true"></div>
 <nav id="navbar">
     <div class="navbar-inner" id="navbarInner">
-        <a class="brand" href="#" onclick="showPage('home')">
+        <a class="brand" href="{{ route('index') }}">
             <img src="{{asset(assetLink().'/images/marin/logo.png')}}" alt="" />
         </a>
         <button class="hamburger" id="hamburger" onclick="toggleMobile()">
