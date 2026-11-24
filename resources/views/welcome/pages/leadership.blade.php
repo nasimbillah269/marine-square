@@ -26,6 +26,7 @@
 
     .profile-imgs {
         width: 100%;
+        max-width: 300px;
         border: 5px solid #104b7c;
         border-radius: 50%;
         aspect-ratio: 1 / 1;
@@ -46,6 +47,15 @@
         margin-bottom: 20px;
     }
 
+    .leader-role {
+        display: block;
+        font-size: 14px;
+        font-weight: 600;
+        color: #104b7c;
+        letter-spacing: 0.5px;
+        margin-top: 2px;
+    }
+
     .highlights {
         background: #f1f1f1;
         padding: 15px;
@@ -57,6 +67,7 @@
     .leadership-text {
         color: #444;
         line-height: 1.7;
+        text-align: justify;
     }
 
 
@@ -107,6 +118,7 @@
                     <h2 class="leader-title">Leadership</h2>
                     <p class="leader-subtitle">
                         Capt. Zamshed Ali (Retd.)
+                        <span class="leader-role">Founder &amp; CEO</span>
                     </p>
 
                     <div class="leadership-text">

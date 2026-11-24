@@ -322,8 +322,8 @@
     $leader = [
         'name'   => 'Capt. Zamshed Ali',
         'suffix' => 'psc, BN (Retd.)',
-        'role'   => 'CEO & Founder',
-        'image'  => 'images/team/zamshed-ali.jpg',
+        'role'   => 'Founder & CEO',
+        'image'  => 'images/team/zamshed-ali.webp',
         'bio'    => [
             'A naval officer with over three decades of service in the Bangladesh Navy, including hands-on experience in shipbuilding, dockyard operations, and marine engineering.',
             'His background combines operational understanding with technical execution, enabling accurate interpretation of user requirements and effective coordination with global OEMs and service providers.',

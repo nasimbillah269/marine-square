@@ -552,7 +552,7 @@
 
         <!-- Officer Card -->
         <div class="officer-card">
-          <div class="officer-avatar"><img src="{{asset(assetLink().'/images/marin/capt-zamshed-ali.webp')}}" alt="Capt. Zamshed Ali (Retd.)"></div>
+          <div class="officer-avatar"><img src="{{asset(assetLink().'/images/marin/capt-zamshed-ali-avatar.webp')}}" alt="Capt. Zamshed Ali (Retd.)"></div>
           <div>
             <h5>Capt. Zamshed Ali (Retd.)</h5>
             <p>Chief Executive Officer</p>

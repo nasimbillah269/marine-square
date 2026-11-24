@@ -2128,5 +2128,5 @@
       #navbar.is-sticky { animation: none; }
     }
 
-.officer-avatar { overflow: hidden; background: #fff; }
-.officer-avatar img { width: 100%; height: 100%; object-fit: cover; object-position: center top; display: block; }
+.officer-avatar { overflow: hidden; background: #fff; width: 90px !important; height: 90px !important; }
+.officer-avatar img { width: 100%; height: 100%; object-fit: cover; display: block; object-position: center; }
