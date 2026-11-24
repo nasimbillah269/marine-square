@@ -624,9 +624,9 @@ style="background-image:url({{asset($page->banner())}});background-repeat: no-re
         <div class="officer-card">
           <div class="officer-avatar"><img src="{{asset(assetLink().'/images/marin/capt-zamshed-ali-avatar.webp')}}" alt="Capt. Zamshed Ali (Retd.)"></div>
           <div>
-            <h5>Capt. Zamshed Ali (Retd.)</h5>
-            <p>Chief Executive Officer</p>
-            <span>MARINE Square</span>
+            <h5>Capt. Zamshed Ali</h5>
+            <span style="display:block;">psc, BN (Retd.)</span>
+            <p style="margin-top:4px;">Founder &amp; CEO</p>
           </div>
         </div>
       </div>

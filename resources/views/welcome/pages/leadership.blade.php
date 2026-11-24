@@ -47,6 +47,21 @@
         margin-bottom: 20px;
     }
 
+    .leader-name {
+        display: inline;
+        font-size: 22px;
+        font-weight: 700;
+        color: #0a2540;
+    }
+
+    .leader-suffix {
+        display: inline;
+        margin-left: 6px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #17a2b8;
+    }
+
     .leader-role {
         display: block;
         font-size: 14px;
@@ -110,14 +125,15 @@
 
                 <!-- Left Column (Image) -->
                 <div class="col-md-4 text-center mb-4 mb-md-0">
-                    <img src="{{asset(assetLink().'/images/marin/capt-zamshed-ali.webp')}}" alt="Capt. Zamshed Ali (Retd.)" class="profile-imgs">
+                    <img src="{{asset(assetLink().'/images/marin/capt-zamshed-ali-v3.webp')}}" alt="Capt. Zamshed Ali (Retd.)" class="profile-imgs">
                 </div>
 
                 <!-- Right Column (Text) -->
                 <div class="col-md-8">
                     <h2 class="leader-title">Leadership</h2>
                     <p class="leader-subtitle">
-                        Capt. Zamshed Ali (Retd.)
+                        <span class="leader-name">Capt. Zamshed Ali</span>
+                        <span class="leader-suffix">psc, BN (Retd.)</span>
                         <span class="leader-role">Founder &amp; CEO</span>
                     </p>
 

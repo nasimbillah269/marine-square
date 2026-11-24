@@ -57,7 +57,7 @@
       <div class="bottomFooterOverly">
           <div class="container">
                 <div class="footer-bottom">
-                  <p>© 2024 MARINE Square. All rights reserved. Dhaka, Bangladesh.</p>
+                  <p>© 2026 MARINE Square. All rights reserved. Dhaka, Bangladesh.</p>
                   <div class="footer-socials">
                     <a class="social-btn" href="{{ general()->linkedin_link ?: '#' }}" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     <a class="social-btn" href="mailto:info@marine-square.com" title="Email"><i class="fas fa-envelope"></i></a>
