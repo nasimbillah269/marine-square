@@ -636,13 +636,39 @@ style="background-image:url({{asset($page->banner())}});background-repeat: no-re
         <div class="section-label">Send a Message</div>
         
           @if(Session::has('success'))
-            <div class="alert alert-success alert-dismissable" style="font-size: 12px;">
-                <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
-                <strong>Success! </strong> {{Session::get('success')}}.
+            <div class="ms-alert ms-alert-success" role="alert">
+                <i class="fas fa-check-circle ms-alert-icon"></i>
+                <div class="ms-alert-body">
+                    <strong>Message sent!</strong>
+                    <span>{{Session::get('success')}}.</span>
+                </div>
+                <button type="button" class="ms-alert-close" aria-label="Close" onclick="this.closest('.ms-alert').remove()"><i class="fas fa-times"></i></button>
             </div>
             @endif
-        
-        
+          @if(Session::has('error'))
+            <div class="ms-alert ms-alert-error" role="alert">
+                <i class="fas fa-exclamation-circle ms-alert-icon"></i>
+                <div class="ms-alert-body">
+                    <strong>Sending failed</strong>
+                    <span>{{Session::get('error')}}</span>
+                </div>
+                <button type="button" class="ms-alert-close" aria-label="Close" onclick="this.closest('.ms-alert').remove()"><i class="fas fa-times"></i></button>
+            </div>
+            @endif
+
+            <style>
+              .ms-alert { display:flex; align-items:flex-start; gap:12px; padding:14px 16px; margin-bottom:20px; border-radius:10px; border:1px solid; border-left-width:5px; font-size:14px; line-height:1.55; animation:msAlertIn .35s ease; }
+              .ms-alert-success { background:#ecfaf7; border-color:#bfe9df; border-left-color:#0f8c8c; color:#0b5e5e; }
+              .ms-alert-error { background:#fdf0f0; border-color:#f3c9c9; border-left-color:#d64545; color:#8a2323; }
+              .ms-alert-icon { font-size:20px; margin-top:1px; flex-shrink:0; }
+              .ms-alert-body { flex:1; }
+              .ms-alert-body strong { display:block; font-size:15px; margin-bottom:2px; }
+              .ms-alert-close { flex-shrink:0; width:28px; height:28px; border:none; border-radius:50%; background:transparent; color:inherit; cursor:pointer; display:flex; align-items:center; justify-content:center; font-size:13px; opacity:.6; transition:all .2s; padding:0; }
+              .ms-alert-close:hover { opacity:1; background:rgba(0,0,0,0.07); }
+              @keyframes msAlertIn { from { opacity:0; transform:translateY(-6px); } to { opacity:1; transform:none; } }
+            </style>
+
+
         <div class="section-divider"></div>
 
         <div id="form-success" style="display:none;background:rgba(15,140,140,0.1);border:1.5px solid var(--teal);border-radius:4px;padding:20px;margin-bottom:24px">

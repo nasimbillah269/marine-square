@@ -555,10 +555,10 @@ class WelcomeController extends Controller
     //   return $r;
       $check = $r->validate([
           'name' => 'required|max:100',
-          'email' => 'required|max:100',
-          'phone' => 'required|max:11',
+          'email' => 'required|email|max:100',
+          'phone' => 'required|max:20',
           'subject' => 'required|max:100',
-          'message' => 'nullable|max:500',
+          'message' => 'nullable|max:2000',
         //   'g-recaptcha-response' => 'required',
       ]);
         
@@ -580,15 +580,28 @@ class WelcomeController extends Controller
 
         if(general()->mail_status && general()->mail_from_address){
             //Mail Data
-            $datas =array('r'=>$r);
+            $datas =array(
+                'name'    => $r->name,
+                'email'   => $r->email,
+                'phone'   => $r->phone,
+                'subject' => $r->subject,
+                'message' => $r->message,
+                'ip'      => $r->ip(),
+                'time'    => now()->format('d M Y, h:i A'),
+            );
             $template ='mails.ContactMail';
             $toEmail =general()->mail_from_address;
             $toName =general()->mail_from_name;
-            $subject ='Contact Mail Form '.general()->title;
-            sendMail($toEmail,$toName,$subject,$datas,$template);
+            $subject ='New Contact Message: '.$r->subject;
+            $sent = sendMail($toEmail,$toName,$subject,$datas,$template,null,['email'=>$r->email,'name'=>$r->name]);
+
+            if(!$sent){
+                Session()->flash('error','Sorry, your message could not be sent right now. Please try again later.');
+                return back()->withInput();
+            }
         }
 
-      Session()->flash('success','Your form send successfully done. We are response as soon as possible.');
+      Session()->flash('success','Thank you for contacting us. Your message has been sent successfully and we will get back to you soon');
       return back();
     }
 

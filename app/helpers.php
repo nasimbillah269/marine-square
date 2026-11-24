@@ -118,16 +118,17 @@ function priceFullFormat($amount=0)
 
 }
 
-function sendMail($toEmail,$toName,$subject,$datas,$template,$attachments=null){
-    
+function sendMail($toEmail,$toName,$subject,$datas,$template,$attachments=null,$replyTo=null){
+
   try {
-    Mail::send($template,compact('datas'), function ($message) use ($toEmail,$toName,$subject,$attachments) {
+    Mail::send($template,compact('datas'), function ($message) use ($toEmail,$toName,$subject,$attachments,$replyTo) {
         $message->from(general()->mail_from_address, general()->mail_from_name);
         $message->to($toEmail,$toName);
-        //To bb mail 
+        //To bb mail
         //$message->cc($ccRecipients);
-        //To Replay diffrent mail 
-        //$message->replyTo('replyto@example.com', 'Reply To Name');
+        if($replyTo && !empty($replyTo['email'])){
+            $message->replyTo($replyTo['email'], $replyTo['name'] ?? null);
+        }
         
         $message->subject($subject);
         

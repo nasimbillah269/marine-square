@@ -9,7 +9,7 @@ use App\Http\Controllers\Api\ApiUserController;
 Route::get('/general',[ApiWelcomeController::class,'generalInfo'])->name('generalInfo');
 Route::get('/slider',[ApiWelcomeController::class,'slider'])->name('slider');
 Route::post('/subscribe',[ApiWelcomeController::class,'subscribe'])->name('subscribe');
-Route::post('/contact-mail',[ApiWelcomeController::class,'contactMail'])->name('contactMail');
+Route::post('/contact-mail',[ApiWelcomeController::class,'contactMail'])->name('api.contactMail');
 Route::get('/geo/filter/{id}',[ApiWelcomeController::class,'geo_filter'])->name('geo_filter');
 
 Route::get('/home-content',[ApiWelcomeController::class,'homeContent'])->name('homeContent');
