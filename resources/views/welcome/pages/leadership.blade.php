@@ -28,6 +28,10 @@
         width: 100%;
         border: 5px solid #104b7c;
         border-radius: 50%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        object-position: center top;
+        background: #fff;
     }
 
     .leader-title {
@@ -95,7 +99,7 @@
 
                 <!-- Left Column (Image) -->
                 <div class="col-md-4 text-center mb-4 mb-md-0">
-                    <img src="{{asset(assetLink().'/images/marin/3135715.png')}}" alt="" class="profile-imgs">
+                    <img src="{{asset(assetLink().'/images/marin/capt-zamshed-ali.webp')}}" alt="Capt. Zamshed Ali (Retd.)" class="profile-imgs">
                 </div>
 
                 <!-- Right Column (Text) -->

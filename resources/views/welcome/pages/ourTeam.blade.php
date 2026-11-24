@@ -393,7 +393,7 @@
                         <h3>{{$leader['name']}}</h3>
                         <div class="suffix">{{$leader['suffix']}}</div>
                         @foreach($leader['bio'] as $text)
-                        <p>{{$text}}</p>
+                        <p style="text-align: justify;">{{$text}}</p>
                         @endforeach
                     </div>
                 </div>

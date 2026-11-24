@@ -2127,3 +2127,6 @@
     @media (prefers-reduced-motion: reduce) {
       #navbar.is-sticky { animation: none; }
     }
+
+.officer-avatar { overflow: hidden; background: #fff; }
+.officer-avatar img { width: 100%; height: 100%; object-fit: cover; object-position: center top; display: block; }
