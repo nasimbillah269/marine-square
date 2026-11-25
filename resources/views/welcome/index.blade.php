@@ -529,7 +529,7 @@
         </div>
         <div class="info-item">
           <i class="fas fa-phone"></i>
-          <p><a href="tel:+880258070486">+880 258070486</a></p>
+          <p><a href="tel:+880251054369">+880 251054369</a></p>
         </div>
         <div class="info-item">
           <i class="fas fa-envelope"></i>
@@ -547,7 +547,7 @@
         <h4 style="margin-top:28px"><i class="fas fa-map me-2"></i> Branch Office</h4>
         <div class="info-item">
           <i class="fas fa-map-marker-alt"></i>
-          <p>House 579/A-2 (Parabar), Road 9<br>DOHS Mirpur, Dhaka – 1216, Bangladesh</p>
+          <p>House# 686, Avenue# 6, Road# 9 (Main Road)<br>DOHS Mirpur, Dhaka – 1216, Bangladesh</p>
         </div>
 
         <!-- Officer Card -->
